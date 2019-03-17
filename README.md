@@ -23,14 +23,14 @@ Examples
 ======
 Detrended correspondence analysis:
 
-	import pandas as pd
+    import pandas as pd
     import cornpy as cp
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("gauch.csv")
     site_scores, species_scores = cp.decorana(df)
 
 Two-way species indicator analysis:
 
     import pandas as pd
     import cornpy as cp
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv("meadow.csv")
     output = twinspan(df)
