@@ -1,7 +1,7 @@
 CornPy: Cornell Ecology Programs in Python
 ******************************************
  
-**CornPy** provides Python wrappers for two classic programs for ecological data analyses, DECORANA (DEtrended COrrespondence ANAlysis) and TWINSPAN (Two-Way SPecies INdicator ANalysis). Both programs were written by M. O. Hill in FORTRAN for mainframe computers, and modified for the IBM PC. 
+**CornPy** provides Python wrappers for two classic programs for ecological data analyses, DECORANA (_DEtrended COrrespondence ANAlysis_) and TWINSPAN (_Two-Way SPecies INdicator ANalysis_). Both programs were written by M. O. Hill in FORTRAN for mainframe computers, and modified for the IBM PC. 
 
 These modified versions use the "strict" convergence criteria of Oksanen & Minchin (1997) for eigenanalysis, with a tolerance of 0.000005 and a maximum iteration limit of 999. In DECORANA, the bug in non-linear scaling has been corrected.
 
